@@ -1,0 +1,22 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [ "wwwroot/css/site.css" ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/bootstrap/dist/css/bootstrapCss.min.css",
+    "inputFiles": [ "wwwroot/lib/bootstrap/dist/css/bootstrap.css", "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css", "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css", "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+    "inputFiles": [ "wwwroot/lib/bootstrap/dist/js/bootstrap.js" ]
+  },
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+    "inputFiles": [ "wwwroot/js/site.js", "wwwroot/js/Register/roleChooser.js" ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]
